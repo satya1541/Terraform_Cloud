@@ -10,3 +10,7 @@ tags = {
 Name = "Terraform_cloud"
 }
 }
+
+resource "aws_s3_bucket" "two" {
+bucket = "satya154123387522552"
+}
